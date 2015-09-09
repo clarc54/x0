@@ -1,7 +1,7 @@
 //// Wild circles #2.
 String title=  "Click for another circle.";
 String subtitle=  "Press any key to erase.";
-String author=  "Bruce Alan Martin";
+String author=  "Christopher Clark";
 
 // GLOBAL VARIABLES //
 float x,y;
@@ -9,11 +9,11 @@ int h,w;
 
 // Setup:  screen size, initialization. //
 void setup() {
-  size(500, 500);
+  size(650, 650);
   x=  width/2;
   y=  height/2;
-  w=  80;          // width of ellipse.
-  h=  80;          // height of ellipse
+  w=  180;          // width of ellipse.
+  h=  200;          // height of ellipse
 }
 
 // Next frame. //
